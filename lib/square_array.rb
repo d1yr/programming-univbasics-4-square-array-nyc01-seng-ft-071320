@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  new_array = []
+  while array.length do
+    new_array.push(array)  
+  end
+  new_array
 end
